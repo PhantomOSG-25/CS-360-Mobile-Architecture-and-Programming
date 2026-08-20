@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!--
+      AGP 8.10.1 officially defaults to Gradle 8.11.1. Keep that tested
+      compatibility pairing instead of following the generic newer-version hint.
+    -->
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+</lint>
